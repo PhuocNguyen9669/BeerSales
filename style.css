@@ -1,0 +1,140 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Mochiy Pop One', sans-serif;
+    
+}
+h2 {
+    font-size: 40px;
+    text-align: center;
+    color: rgb(1, 1, 17);  
+}
+.container {
+    max-width: 1000px;
+    /* background-color: #231818; */
+    margin: 0px auto;
+    color: #1e71a1;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+.row {
+    width: 100%;
+    padding: 10px;
+    /* background-color: rgb(36, 36, 184); */
+    background-color: wheat;
+    background: wheat;
+    border: 5px solid #4292dd;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+.form-group>label {
+    width: 200px;
+    margin-left :5px;
+    padding: 2px;
+    display: inline-block;
+   
+}
+.form-control {
+    width: 250px;
+    /* padding: 5px 0px; */
+    /* margin-bottom:2px; */
+    display: inline-block;
+    border-bottom: 1px solid #adadad;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    width: 35%;
+    padding: 9px;
+    margin-bottom: 6px;
+   
+
+}
+
+.btn{
+    color: #83a5c7;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid #212529;
+    padding: 5px 10px;
+} 
+.btn-primary{
+    color: rgb(7, 3, 3);
+    background-color: #007bff;
+    border-color: #265778;
+}
+
+.btn-primary:hover{
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+    cursor: pointer;
+}
+
+.table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tbody>tr>td {
+    font-size: 15px;
+    padding: 10px 0px;
+}
+
+.thead-dark{
+    background-color: #212529;
+    color:whitesmoke;
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 10px;
+}
+.thead-dark tr th{
+   padding: 5px; 
+}
+.table-striped tbody tr:nth-child(odd){
+    background-color: #b9cee2;
+}
+
+.table-hover tbody tr:hover{
+    background-color: #8eb5da;
+    cursor: pointer;
+}
+.img-sm{
+    width: 50px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+td {
+    text-align: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.icon{
+    text-decoration: none;
+    /* background-color: rgb(192, 182, 182); */
+    color: #0a47ef;
+    border: none;
+    background: #b9cee2;
+    font-size: 20px
+    
+}
+
+.icon:hover {
+    color: crimson;
+}
+
+.d-none{
+    display: none;
+}
+
+#preViewImage {
+    width: 50px;
+    height: 50px;
+}
