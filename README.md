@@ -7,4 +7,4 @@
   + DOM/BOM
   + Đối tượng(Localstorage)
 
-  link Case:
+  link Case:https://phuocnguyen9669.github.io/BeerSales/
